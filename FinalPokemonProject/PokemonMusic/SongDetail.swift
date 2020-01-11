@@ -22,10 +22,10 @@ struct SongDetail: View {
                 self.player?.play()
                 
             }) {
-                Image(systemName: "play.circle.fill")
+                Image(systemName: "play.fill")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 100, height: 100)
+                    .frame(width: 50, height: 50)
             }
         }
         .onDisappear {

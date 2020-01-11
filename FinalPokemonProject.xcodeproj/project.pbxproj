@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE7205BD23CA0F3D0039E467 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7205BC23CA0F3D0039E467 /* MapView.swift */; };
+		CE7205BF23CA0FA30039E467 /* SafariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7205BE23CA0FA30039E467 /* SafariViewController.swift */; };
+		CE7205C523CA2B0E0039E467 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = CE7205C423CA2B0E0039E467 /* Lottie */; };
 		CE81BC8523C1DA38007F67A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81BC8423C1DA38007F67A8 /* AppDelegate.swift */; };
 		CE81BC8723C1DA38007F67A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81BC8623C1DA38007F67A8 /* SceneDelegate.swift */; };
 		CE81BC8B23C1DA3D007F67A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE81BC8A23C1DA3D007F67A8 /* Assets.xcassets */; };
@@ -17,11 +20,9 @@
 		CE81BCB623C1DAD3007F67A8 /* SongData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81BCB523C1DAD3007F67A8 /* SongData.swift */; };
 		CE81BCB923C1DB47007F67A8 /* NetworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81BCB823C1DB47007F67A8 /* NetworkImage.swift */; };
 		CE81BCBB23C1DB7C007F67A8 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81BCBA23C1DB7C007F67A8 /* WebView.swift */; };
-		CE81BCBF23C1DC09007F67A8 /* SafariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81BCBE23C1DC09007F67A8 /* SafariViewController.swift */; };
 		CE81BCC123C1DC4E007F67A8 /* PokemonMusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81BCC023C1DC4E007F67A8 /* PokemonMusicView.swift */; };
 		CE81BCC323C1DCAC007F67A8 /* SongRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81BCC223C1DCAC007F67A8 /* SongRow.swift */; };
 		CE81BCC523C1DCCD007F67A8 /* SongDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81BCC423C1DCCD007F67A8 /* SongDetail.swift */; };
-		CE81BCC723C1DD76007F67A8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81BCC623C1DD76007F67A8 /* MapView.swift */; };
 		CE81BCC923C1DDB2007F67A8 /* Personal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81BCC823C1DDB2007F67A8 /* Personal.swift */; };
 		CE81BCCB23C1DE04007F67A8 /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81BCCA23C1DE04007F67A8 /* ImagePickerController.swift */; };
 		CE81BCCD23C1DE66007F67A8 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81BCCC23C1DE66007F67A8 /* Game.swift */; };
@@ -49,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE7205BC23CA0F3D0039E467 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		CE7205BE23CA0FA30039E467 /* SafariViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariViewController.swift; sourceTree = "<group>"; };
 		CE81BC8123C1DA38007F67A8 /* FinalPokemonProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalPokemonProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE81BC8423C1DA38007F67A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE81BC8623C1DA38007F67A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,11 +68,9 @@
 		CE81BCB523C1DAD3007F67A8 /* SongData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongData.swift; sourceTree = "<group>"; };
 		CE81BCB823C1DB47007F67A8 /* NetworkImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImage.swift; sourceTree = "<group>"; };
 		CE81BCBA23C1DB7C007F67A8 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
-		CE81BCBE23C1DC09007F67A8 /* SafariViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariViewController.swift; sourceTree = "<group>"; };
 		CE81BCC023C1DC4E007F67A8 /* PokemonMusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonMusicView.swift; sourceTree = "<group>"; };
 		CE81BCC223C1DCAC007F67A8 /* SongRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongRow.swift; sourceTree = "<group>"; };
 		CE81BCC423C1DCCD007F67A8 /* SongDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetail.swift; sourceTree = "<group>"; };
-		CE81BCC623C1DD76007F67A8 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		CE81BCC823C1DDB2007F67A8 /* Personal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personal.swift; sourceTree = "<group>"; };
 		CE81BCCA23C1DE04007F67A8 /* ImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
 		CE81BCCC23C1DE66007F67A8 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
@@ -84,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE7205C523CA2B0E0039E467 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,9 +132,9 @@
 				CE81BCB423C1DA91007F67A8 /* PokemonMusic */,
 				CE81BCB723C1DB1F007F67A8 /* ImagesView */,
 				CE81BCD023C1E07A007F67A8 /* Pokemon */,
-				CE81BCBE23C1DC09007F67A8 /* SafariViewController.swift */,
 				CE81BC8623C1DA38007F67A8 /* SceneDelegate.swift */,
-				CE81BCC623C1DD76007F67A8 /* MapView.swift */,
+				CE7205BC23CA0F3D0039E467 /* MapView.swift */,
+				CE7205BE23CA0FA30039E467 /* SafariViewController.swift */,
 				CE81BCC823C1DDB2007F67A8 /* Personal.swift */,
 				CE81BCCC23C1DE66007F67A8 /* Game.swift */,
 				CE81BCCE23C1DF67007F67A8 /* Main.swift */,
@@ -218,6 +220,9 @@
 			dependencies = (
 			);
 			name = FinalPokemonProject;
+			packageProductDependencies = (
+				CE7205C423CA2B0E0039E467 /* Lottie */,
+			);
 			productName = FinalPokemonProject;
 			productReference = CE81BC8123C1DA38007F67A8 /* FinalPokemonProject.app */;
 			productType = "com.apple.product-type.application";
@@ -290,6 +295,9 @@
 				Base,
 			);
 			mainGroup = CE81BC7823C1DA38007F67A8;
+			packageReferences = (
+				CE7205C323CA2B0E0039E467 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = CE81BC8223C1DA38007F67A8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -337,18 +345,18 @@
 				CE81BC8523C1DA38007F67A8 /* AppDelegate.swift in Sources */,
 				CE81BCB923C1DB47007F67A8 /* NetworkImage.swift in Sources */,
 				CE81BCC523C1DCCD007F67A8 /* SongDetail.swift in Sources */,
-				CE81BCC723C1DD76007F67A8 /* MapView.swift in Sources */,
-				CE81BCBF23C1DC09007F67A8 /* SafariViewController.swift in Sources */,
 				CE81BCCB23C1DE04007F67A8 /* ImagePickerController.swift in Sources */,
 				CE81BC8723C1DA38007F67A8 /* SceneDelegate.swift in Sources */,
 				CE81BCD423C1E107007F67A8 /* PokemonDetailView.swift in Sources */,
 				CE81BCBB23C1DB7C007F67A8 /* WebView.swift in Sources */,
+				CE7205BD23CA0F3D0039E467 /* MapView.swift in Sources */,
 				CE81BCC123C1DC4E007F67A8 /* PokemonMusicView.swift in Sources */,
 				CE81BCCD23C1DE66007F67A8 /* Game.swift in Sources */,
 				CE81BCD623C1E161007F67A8 /* PokemonView.swift in Sources */,
 				CE81BCB623C1DAD3007F67A8 /* SongData.swift in Sources */,
 				CE81BCC923C1DDB2007F67A8 /* Personal.swift in Sources */,
 				CE81BCC323C1DCAC007F67A8 /* SongRow.swift in Sources */,
+				CE7205BF23CA0FA30039E467 /* SafariViewController.swift in Sources */,
 				CE81BCD223C1E0AA007F67A8 /* PokemonData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -668,6 +676,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE7205C323CA2B0E0039E467 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE7205C423CA2B0E0039E467 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE7205C323CA2B0E0039E467 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE81BC7923C1DA38007F67A8 /* Project object */;
 }

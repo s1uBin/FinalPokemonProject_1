@@ -15,7 +15,7 @@ struct Main: View {
             PokemonMusicView()
                 .tabItem{
                     Image(systemName:"house.fill")
-                    Text("主頁")
+                    Text("音樂")
             }
             PokemonView()
                 .tabItem{
